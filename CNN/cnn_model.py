@@ -3,10 +3,6 @@ import numpy as np
 
 
 class CNN(object):
-    """
-    A CNN for text classification.
-    Uses an embedding layer, followed by a convolutional, max-pooling and softmax layer.
-    """
     def __init__(
       self, sequence_length, num_classes,embedding_dim,
       filter_size, num_filters, l2_reg_lambda=0.0):
